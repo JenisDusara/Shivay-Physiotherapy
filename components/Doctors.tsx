@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { FaPhoneAlt, FaCheckCircle, FaUserMd } from 'react-icons/fa'
+import { spec } from 'node:test/reporters'
 
 export default function Doctors() {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
@@ -11,19 +12,19 @@ export default function Doctors() {
     {
       name: 'Dr. Deep Rami',
       qualification: 'BPT',
-      specialization: 'Orthopedic & Sports Rehabilitation',
+      specialization: 'Pain Management Specialist',
       phone: '+91 9510314824',
       image: '/images/deep-rami1.jpeg',
-      imagePosition: 'object-center',
+      imagePosition: 'object-[center_30%]',
       achievements: ['Certified Manual Therapist', 'Sports Injury Specialist', 'Advanced Orthopedic Rehabilitation'],
     },
     {
       name: 'Dr. Riddhi Vekariya',
       qualification: 'BPT',
-      specialization: 'Neurological & Pediatric Physiotherapy',
+      specialization: 'Neuro Rehabilitation Specialist',
       phone: '+91 6353272474',
-      image: '/images/riddhi.jpeg',
-      imagePosition: 'object-top',
+      image: '/images/Riddhi.jpeg',
+      imagePosition: 'object-[center_30%]',
       achievements: ['Pediatric Physiotherapy Expert', 'Neuro Rehabilitation Specialist', 'Womens Health Physiotherapy'],
     },
   ]
