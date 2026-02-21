@@ -24,7 +24,7 @@ export default function Footer() {
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true }}>
             <div className="mb-4">
               <h3 className="text-2xl font-bold text-white mb-2">Shivay Physiotherapy</h3>
-              <p className="text-sm text-primary-green">& Rehabilitation Clinic</p>
+              <p className="text-sm text-primary-green">& Wellness Center</p>
             </div>
             <p className="text-gray-400 mb-4 text-sm">Providing expert physiotherapy care with personalized treatment plans to restore mobility and enhance quality of life.</p>
             <div className="flex space-x-3">
@@ -65,15 +65,15 @@ export default function Footer() {
               </div>
               <div className="bg-white/10 rounded-lg p-3">
                 <p className="text-xs font-semibold text-primary-green mb-1">Clinic Hours</p>
-                <p className="text-gray-400 text-sm">Mon - Sat: 10:00 AM - 8:00 PM</p>
-                <p className="text-gray-400 text-sm">Sunday: Closed</p>
+                <p className="text-gray-400 text-sm">Mon - Sat: 10:00 AM - 9:00 PM</p>
+                <p className="text-gray-400 text-sm">Sunday: 10:00 AM - 1:00 PM</p>
               </div>
             </div>
           </motion.div>
         </div>
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.4 }} viewport={{ once: true }} className="border-t border-gray-700 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-gray-400 text-sm text-center md:text-left">© {currentYear} Shivay Physiotherapy & Rehabilitation Clinic. All rights reserved.</p>
+            <p className="text-gray-400 text-sm text-center md:text-left">© {currentYear} Shivay Physiotherapy & Wellness Center. All rights reserved.</p>
             <div className="flex flex-wrap justify-center gap-4 text-sm">
               <a href="#" className="text-gray-400 hover:text-primary-green transition">Privacy Policy</a>
               <span className="text-gray-600">|</span>

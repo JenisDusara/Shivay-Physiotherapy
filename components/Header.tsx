@@ -2,7 +2,9 @@
 
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { FaPhone, FaBars, FaTimes } from 'react-icons/fa'
+// import { FaPhone, FaBars, FaTimes } from 'react-icons/fa'
+import { FaPhoneAlt, FaBars, FaTimes } from 'react-icons/fa'
+
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -39,7 +41,7 @@ export default function Header() {
             </div>
             <div className="hidden sm:block">
               <h1 className="text-xl font-bold text-primary-blue leading-tight">Shivay Physiotherapy</h1>
-              <p className="text-xs text-primary-green">& Rehabilitation Clinic</p>
+              <p className="text-xs text-primary-green">& Wellness Center</p>
             </div>
           </motion.div>
           <nav className="hidden lg:flex items-center space-x-8">
@@ -50,7 +52,7 @@ export default function Header() {
             ))}
           </nav>
           <motion.a href="tel:+919510314824" initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }} className="hidden md:flex items-center space-x-2 btn-primary">
-            <FaPhone />
+            <FaPhoneAlt />
             <span>Call Now</span>
           </motion.a>
           <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden text-primary-blue text-2xl">
