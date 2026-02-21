@@ -3,7 +3,8 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 // import { FaPhone, FaBars, FaTimes } from 'react-icons/fa'
-import { FaPhoneAlt, FaBars, FaTimes } from 'react-icons/fa'
+// import { FaPhoneAlt, FaBars, FaTimes } from 'react-icons/fa'
+import { FaPhone, FaPhoneAlt, FaBars, FaTimes } from 'react-icons/fa'
 
 
 export default function Header() {
