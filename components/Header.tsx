@@ -32,7 +32,7 @@ export default function Header() {
             <img src="images/logo1.jpeg" alt="Shivay Physiotherapy Logo" className="w-10 h-10 object-contain" />
             <div className="block">
               <h1 className="text-lg font-bold text-primary-blue leading-tight">Shivay Physiotherapy</h1>
-              <p className="text-xs text-primary-green">& Rehabilitation Clinic</p>
+              <p className="text-xs text-primary-green">& Wellness Center</p>
             </div>
           </motion.div>
 
